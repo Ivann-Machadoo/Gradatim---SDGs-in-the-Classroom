@@ -69,15 +69,17 @@ CONTENTS OF THE WEB APP:
 
 *IMAGE*
 
-ODIS: ODIS will be short-form videos created by students about their challenges, solutions, and insights related to the SDGs. These videos will keep students engaged by allowing them to express their creativity and share their learning experiences. ODIS will be created and viewed by students around the world, promoting a sense of global community and enabling learners to draw inspiration from one another.
+8- ODIS: ODIS will be short-form videos created by students about their challenges, solutions, and insights related to the SDGs. These videos will keep students engaged by allowing them to express their creativity and share their learning experiences. ODIS will be created and viewed by students around the world, promoting a sense of global community and enabling learners to draw inspiration from one another.
 
 *IMAGE*
 
-Games: The app will include small mini-games designed to help students learn about the SDGs in an interactive and enjoyable manner.
+9- Games: The app will include small mini-games designed to help students learn about the SDGs in an interactive and enjoyable manner.
 
 *IMAGE*
 
-What If: *text*
+10- What If: The “What If” section allows students to spend their accumulated points to slowly unlock a compelling story that explores the consequences of inaction on the SDGs. As students engage more with the platform and its challenges, they can unlock more parts of the narrative, which illustrates potential global and local impacts of not working towards achieving these goals.
+
+*IMAGE*
 
 
 INTEGRATION INTO HIGH SCHOOL CURRICULUM:
