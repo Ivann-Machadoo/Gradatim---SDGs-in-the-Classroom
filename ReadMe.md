@@ -1,3 +1,11 @@
+GRADATIM
+
+*IMAGE*
+
+Gradatim is a web-based application designed to bring the United Nations Sustainable Development Goals (SDGs) into high school classrooms in an engaging, challenging, and interactive way. The platform encourages students to explore how two SDGs can intersect to create complex, real-world problems and provides the tools they need to build innovative solutions. Using a combination of challenge-based learning, game elements, and interactive global sharing, Gradatim not only supports critical thinking but also fosters interdisciplinary learning and global collaboration. With NASA’s data integrated into the application, students will have access to real-time environmental data to support their analysis, giving them deeper insights into the impact of their projects.
+
+
+
 ABOUT THE PROJECT:
 
 In 2015, the United Nations introduced the Sustainable Development Goals (SDGs), a global framework of 17 interconnected goals aimed at addressing the world’s most pressing challenges. These goals cover critical areas such as poverty, education, climate action, and inequality, with the shared vision of achieving sustainable development by the year 2030. 
@@ -41,7 +49,7 @@ https://www.figma.com/design/nbcrBgCGrlXLzobIc4Cc5G/Gradatim?node-id=0-1&t=zqEug
 
 CONTENTS OF THE WEB APP:
 
-1- User Registration: Schools will register on the platform, creating a secure environment for teachers and students. Each user will have a personalized dashboard to track their progress and access relevant resources.
+1- User Registration: Schools, teachers, and students will register on the platform to create a safe learning environment. Each user will have a personalized dashboard that tracks their progress, project uploads, points earned, and unlocked features (such as the What If? stories). Teachers will have management capabilities to monitor student progress.
 
 *IMAGE*
 
@@ -53,7 +61,7 @@ CONTENTS OF THE WEB APP:
 
 *IMAGE*
 
-4- Spinning Wheel Mechanism: Students will have the opportunity to spin a virtual wheel to randomly select two SDGs to work with. Alternatively, users will be able to pre-select one SDG and have the wheel randomly choose the second, or filter the desired results based on personal interest or curriculum relevance.
+4- Spinning Wheel Mechanism: Students can spin a virtual wheel that will randomly assign two SDGs to their project. Alternatively, they can choose one SDG and allow the other to be randomly selected. Filters based on curriculum needs or personal interests will also be available, ensuring that the selected goals are relevant to what they’re studying.
 
 *IMAGE*
 
@@ -69,7 +77,7 @@ CONTENTS OF THE WEB APP:
 
 *IMAGE*
 
-8- ODIS: ODIS will be short-form videos created by students about their challenges, solutions, and insights related to the SDGs. These videos will keep students engaged by allowing them to express their creativity and share their learning experiences. ODIS will be created and viewed by students around the world, promoting a sense of global community and enabling learners to draw inspiration from one another.
+8- ODIS: Students will have the opportunity to create short videos that explain their SDG challenges, solutions, and insights. These videos will be shared globally on the platform, allowing students to learn from peers worldwide. This feature will help maintain engagement by encouraging creativity and offering a diverse view of how students from different regions approach SDG challenges.
 
 *IMAGE*
 
@@ -86,12 +94,10 @@ INTEGRATION INTO HIGH SCHOOL CURRICULUM:
 
 The SDGs Connector Web Application is designed to be seamlessly integrated into high school curricula. Teachers will be able to use the platform to:
 
-- Supplement existing science and social studies units with engaging, relevant content about the SDGs.
-- Assign specific SDG connections as part of project-based learning initiatives, allowing students to apply classroom knowledge to real-world challenges.
-- Utilize the application’s resources to facilitate discussions around global issues, fostering critical thinking and collaborative learning in the classroom.
-- Enhance existing lesson plans by incorporating the SDGs into topics covered in subjects such as mathematics, geography, and language arts, allowing for interdisciplinary projects that -show the relevance of these goals across different domains.
-- Encourage students to conduct research on local or global issues related to the SDGs, promoting inquiry-based learning and critical analysis of real-world situations.
-
+- Project Based Learning: Teachers can assign SDG projects to students as part of their broader coursework, allowing them to apply classroom knowledge to real-world challenges.
+- Cross Curricular Connections: The platform enables students to work across disciplines, helping them see how subjects like environmental science, economics, geography, and social justice interconnect when addressing SDGs. Teachers from multiple subjects can collaborate, using the app as a hub for interdisciplinary learning.
+- Supplemental Resource for Lessons: Teachers can use Gradatim as an interactive tool to supplement lesson plans. The built-in resources, NASA data, and interactive videos can enhance lectures and discussions.
+- Independent Research: Students can be encouraged to independently explore SDGs that interest them, using the platform as a research tool to deepen their understanding.
 
 BENEFITS:
 
