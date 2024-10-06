@@ -2,7 +2,7 @@ GRADATIM
 
 Gradatim is a web-based application designed to bring the United Nations Sustainable Development Goals (SDGs) into high school classrooms in an engaging, challenging, and interactive way. The platform encourages students to explore how two SDGs can intersect to create complex, real-world problems and provides the tools they need to build innovative solutions. Using a combination of challenge-based learning, game elements, and interactive global sharing, Gradatim not only supports critical thinking but also fosters interdisciplinary learning and global collaboration. With NASA’s data integrated into the application, students will have access to real-time environmental data to support their analysis, giving them deeper insights into the impact of their projects.
 
-
+Link to NASA Space Apps Team Page: https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/gradatim/?tab=project
 
 ABOUT THE PROJECT:
 
