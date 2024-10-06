@@ -1,7 +1,5 @@
 GRADATIM
 
-*IMAGE*
-
 Gradatim is a web-based application designed to bring the United Nations Sustainable Development Goals (SDGs) into high school classrooms in an engaging, challenging, and interactive way. The platform encourages students to explore how two SDGs can intersect to create complex, real-world problems and provides the tools they need to build innovative solutions. Using a combination of challenge-based learning, game elements, and interactive global sharing, Gradatim not only supports critical thinking but also fosters interdisciplinary learning and global collaboration. With NASA’s data integrated into the application, students will have access to real-time environmental data to support their analysis, giving them deeper insights into the impact of their projects.
 
 
@@ -47,47 +45,57 @@ Web app link: Since we don't have a designated programmer we utilized Figma to c
 
 https://www.figma.com/design/nbcrBgCGrlXLzobIc4Cc5G/Gradatim?node-id=0-1&t=zqEugvXruNYYZde7-1
 
+![image](https://github.com/user-attachments/assets/30d4b640-049a-411e-9698-4158e6affd90)
+
+
 CONTENTS OF THE WEB APP:
 
 1- User Registration: Schools, teachers, and students will register on the platform to create a safe learning environment. Each user will have a personalized dashboard that tracks their progress, project uploads, points earned, and unlocked features (such as the What If? stories). Teachers will have management capabilities to monitor student progress.
 
-*IMAGE*
+![image](https://github.com/user-attachments/assets/1a729cbc-8bfd-4e44-b630-f987a01b9588)
+![image](https://github.com/user-attachments/assets/dabc9881-4b79-4140-aabf-a8637b1b03aa)
+
 
 2- Historic Context and Information about the SDGs: This section will provide a comprehensive overview of the Sustainable Development Goals (SDGs), including their origin and significance. 
 
-*IMAGE*
+![image](https://github.com/user-attachments/assets/dfdc036f-cef3-468c-b967-7bd968503fde)
+
 
 3- SDG Exploration Module: This section will provide detailed information on each of the 17 SDGs, featuring interactive data visualizations sourced from NASA. Students will be able to explore key statistics, case studies, and relevant resources that highlight the significance of each goal. The module will also include background information on the history and development of the SDGs, illustrating their importance in addressing global challenges and fostering sustainable development.
 
-*IMAGE*
+![image](https://github.com/user-attachments/assets/586fc9b4-2e64-4620-b70b-4a56cf5510c5)
+
 
 4- Spinning Wheel Mechanism: Students can spin a virtual wheel that will randomly assign two SDGs to their project. Alternatively, they can choose one SDG and allow the other to be randomly selected. Filters based on curriculum needs or personal interests will also be available, ensuring that the selected goals are relevant to what they’re studying.
 
-*IMAGE*
+![image](https://github.com/user-attachments/assets/af233a60-1de1-408f-a83c-a774797084a4)
+
 
 5- Build Your Challenge Tool: The heart of the application will be the “Build Your Challenge” section, where students will be guided to connect their selected SDGs. This tool will offer structured prompts to help them formulate a problem situation based on real-world contexts related to their ongoing coursework. In this section, important and relevant information about both SDGs will also be displayed. Additionally, users will be able to leverage interactive NASA data to support their analyses and understand the implications of their selected issues.
 
-*IMAGE*
-
 6- Project Upload and Ranking System: Once students have developed their projects, they will be able to upload them for peer review. The application will include a ranking system that highlights the most innovative solutions based on likes, motivating students to produce high-quality work and engage with their peers.
 
-*IMAGE*
+![image](https://github.com/user-attachments/assets/54081197-230a-4f7c-8ec7-1004236bc28a)
 
 7- International Interactive Board: Users will be able to share their insights, images, and solutions on a global platform, responding to weekly themes that encourage participation and creativity. This interactive board will facilitate cross-cultural exchanges and collaborative learning among students worldwide.
 
-*IMAGE*
+![image](https://github.com/user-attachments/assets/7f82f5dc-6f21-45a2-82b2-9ef04c97a92c)
+
 
 8- ODIS: Students will have the opportunity to create short videos that explain their SDG challenges, solutions, and insights. These videos will be shared globally on the platform, allowing students to learn from peers worldwide. This feature will help maintain engagement by encouraging creativity and offering a diverse view of how students from different regions approach SDG challenges.
 
-*IMAGE*
+![image](https://github.com/user-attachments/assets/95a0b76d-6bad-4bd5-90cc-730ecc2c5d5c)
+
 
 9- Games: The app will include small mini-games designed to help students learn about the SDGs in an interactive and enjoyable manner.
 
-*IMAGE*
+![image](https://github.com/user-attachments/assets/374351b8-0a8b-457a-bb1b-1ea9a4cff073)
+
 
 10- What If: The “What If” section allows students to spend their accumulated points to slowly unlock a compelling story that explores the consequences of inaction on the SDGs. As students engage more with the platform and its challenges, they can unlock more parts of the narrative, which illustrates potential global and local impacts of not working towards achieving these goals.
 
-*IMAGE*
+![image](https://github.com/user-attachments/assets/af014b76-7aa7-4f47-aaf6-90306bd64fb1)
+
 
 
 INTEGRATION INTO HIGH SCHOOL CURRICULUM:
@@ -115,7 +123,7 @@ We are approaching the development of the GRADATIM web application with an explo
 
 1- Design and Prototyping: We are designing the web app interface in Figma, which allows us to visually structure the user experience and prototype features like the spinning wheel and interactive board.
 
-2- Web Developmenr: We plan to create a user-friendly web app where we can manage both front-end and back-end development despite our limited programming experience. For the front-end, we will use straightforward technologies to build an engaging user interface and provide students with interactive tools. As for the back-end and database, we're exploring tools that can manage user data, project uploads, and resources while offering a simple structure that can be easily learned. We aim to select tools that are widely used and well-supported, with a focus on scalability and accessibility for educational purposes.
+2- Web Development: We plan to create a user-friendly web app where we can manage both front-end and back-end development despite our limited programming experience. For the front-end, we will use straightforward technologies to build an engaging user interface and provide students with interactive tools. As for the back-end and database, we're exploring tools that can manage user data, project uploads, and resources while offering a simple structure that can be easily learned. We aim to select tools that are widely used and well-supported, with a focus on scalability and accessibility for educational purposes.
 
 3- NASA APIs: Since our app will include real-world data, we plan to use NASA’s Earth Observation API to integrate interactive data visualizations.
 
@@ -126,7 +134,7 @@ DEVELOPMENT STATUS AND ROADMAP:
 
 Our project is currently in the Figma prototype stage, where we are finalizing the design layout and user flow for the web application. Here’s an outline of our development status and next steps:
 
-Current Stage: Figma prototype completed for core features, including the SDGs exploration module, the Spinning Wheel Mechanism, the Build Your Challenge tool, and user dashboard.
+Current Stage: Figma prototype completed for core features. Currently working on the SDGs exploration module, the Spinning Wheel Mechanism, the Build Your Challenge tool, and user dashboard.
 
 Next Steps:
 
@@ -136,8 +144,16 @@ Backend Development: Set up authentication and database structures for school re
 APIs Integration: Integrate NASA and other relevant APIs for real-time data visuals.
 Upcoming Features:
 
-"What If" feature: Use points to unlock scenarios depicting consequences of not addressing the SDGs.
-
 Project Ranking System: Implement a voting-based ranking system for projects uploaded by students.
 
 ODIS Module: Integration of student-created short-form videos globally, enhancing engagement.
+
+"What If" feature: Use points to unlock scenarios depicting consequences of not addressing the SDGs.
+
+
+Team Members:
+
+- Gloria Bazán
+- Camila Dominguez
+- Ivan Machado
+- Camila Toledo
