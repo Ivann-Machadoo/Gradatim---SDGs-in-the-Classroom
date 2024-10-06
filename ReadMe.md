@@ -31,9 +31,71 @@ Research in education and psychology shows that challenge-based learning and pro
 The  essence of the GRADATIM web aplication is built on these educational principles, looking to integrate the SDGs into the high school curriculum in a way that requires students to critically analyze how different goals intersect. Rather than memorizing the goals in isolation, students must explore how the intersection of two SDGs creates complex, real-world challenges that demand creative solutions. This challenge-based approach mirrors the constructivist learning theory, which emphasizes students constructing their own understanding through inquiry, exploration, and reflection. It is especially effective for high school students, as it taps into their growing ability to reason, hypothesize, and engage with global issues.
 
 
+GRADATIM WEB APP:
 
+Slides Demo: *link to slides*
 
-
-Since we don't have a designated programmer we utilized Figma to create a user-friendly prototype of our web application, enabling us to visualize the layout and button functionality.
+Web app link: Since we don't have a designated programmer we utilized Figma to create a user-friendly prototype of our web application, enabling us to visualize the layout and button functionality.
 
 https://www.figma.com/design/nbcrBgCGrlXLzobIc4Cc5G/Gradatim?node-id=0-1&t=zqEugvXruNYYZde7-1
+
+CONTENTS OF THE WEB APP:
+
+1- User Registration: Schools will register on the platform, creating a secure environment for teachers and students. Each user will have a personalized dashboard to track their progress and access relevant resources.
+
+*IMAGE*
+
+2- Historic Context and Information about the SDGs: This section will provide a comprehensive overview of the Sustainable Development Goals (SDGs), including their origin and significance. 
+
+*IMAGE*
+
+3- SDG Exploration Module: This section will provide detailed information on each of the 17 SDGs, featuring interactive data visualizations sourced from NASA. Students will be able to explore key statistics, case studies, and relevant resources that highlight the significance of each goal. The module will also include background information on the history and development of the SDGs, illustrating their importance in addressing global challenges and fostering sustainable development.
+
+*IMAGE*
+
+4- Spinning Wheel Mechanism: Students will have the opportunity to spin a virtual wheel to randomly select two SDGs to work with. Alternatively, users will be able to pre-select one SDG and have the wheel randomly choose the second, or filter the desired results based on personal interest or curriculum relevance.
+
+*IMAGE*
+
+5- Build Your Challenge Tool: The heart of the application will be the “Build Your Challenge” section, where students will be guided to connect their selected SDGs. This tool will offer structured prompts to help them formulate a problem situation based on real-world contexts related to their ongoing coursework. In this section, important and relevant information about both SDGs will also be displayed. Additionally, users will be able to leverage interactive NASA data to support their analyses and understand the implications of their selected issues.
+
+*IMAGE*
+
+6- Project Upload and Ranking System: Once students have developed their projects, they will be able to upload them for peer review. The application will include a ranking system that highlights the most innovative solutions based on likes, motivating students to produce high-quality work and engage with their peers.
+
+*IMAGE*
+
+7- International Interactive Board: Users will be able to share their insights, images, and solutions on a global platform, responding to weekly themes that encourage participation and creativity. This interactive board will facilitate cross-cultural exchanges and collaborative learning among students worldwide.
+
+*IMAGE*
+
+ODIS: ODIS will be short-form videos created by students about their challenges, solutions, and insights related to the SDGs. These videos will keep students engaged by allowing them to express their creativity and share their learning experiences. ODIS will be created and viewed by students around the world, promoting a sense of global community and enabling learners to draw inspiration from one another.
+
+*IMAGE*
+
+Games: The app will include small mini-games designed to help students learn about the SDGs in an interactive and enjoyable manner.
+
+*IMAGE*
+
+What If: *text*
+
+
+INTEGRATION INTO HIGH SCHOOL CURRICULUM:
+
+The SDGs Connector Web Application is designed to be seamlessly integrated into high school curricula. Teachers will be able to use the platform to:
+
+- Supplement existing science and social studies units with engaging, relevant content about the SDGs.
+- Assign specific SDG connections as part of project-based learning initiatives, allowing students to apply classroom knowledge to real-world challenges.
+- Utilize the application’s resources to facilitate discussions around global issues, fostering critical thinking and collaborative learning in the classroom.
+- Enhance existing lesson plans by incorporating the SDGs into topics covered in subjects such as mathematics, geography, and language arts, allowing for interdisciplinary projects that -show the relevance of these goals across different domains.
+- Encourage students to conduct research on local or global issues related to the SDGs, promoting inquiry-based learning and critical analysis of real-world situations.
+
+
+BENEFITS:
+
+- Enhanced Engagement and Critical Thinking: By focusing on the connections between SDGs, students will develop critical thinking skills as they analyze complex issues and seek innovative solutions.
+- Interdisciplinary Learning: The app will foster connections across various subjects, enabling students to see how different fields contribute to achieving the SDGs. This holistic approach will help students appreciate the importance of collaboration in addressing global challenges.
+- Real-World Context: Incorporating NASA data will provide students with up-to-date information and real-world implications of their studies, making learning more relevant and impactful.
+- Global Perspective: The interactive board will encourage students to share ideas and learn from peers worldwide, promoting cultural exchange and global citizenship.
+- Motivation and Competition: The project upload and ranking system will incentivize students to engage deeply with their projects, fostering a sense of accomplishment and encouraging peer-to-peer learning.
+- Skill Development: The platform will help students develop essential skills, including research, problem-solving, collaboration, and effective communication, which are valuable both academically and professionally.
