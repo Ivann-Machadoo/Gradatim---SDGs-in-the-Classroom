@@ -92,7 +92,7 @@ CONTENTS OF THE WEB APP:
 
 INTEGRATION INTO HIGH SCHOOL CURRICULUM:
 
-The SDGs Connector Web Application is designed to be seamlessly integrated into high school curricula. Teachers will be able to use the platform to:
+Gradatim offers a versatile, student-centered platform that teachers can use to enrich their classrooms while promoting deeper understanding and collaboration. The platform will be seamlessly integrated into high school curricula, offering flexibility for teachers across subjects like science, social studies, and even humanities.
 
 - Project Based Learning: Teachers can assign SDG projects to students as part of their broader coursework, allowing them to apply classroom knowledge to real-world challenges.
 - Cross Curricular Connections: The platform enables students to work across disciplines, helping them see how subjects like environmental science, economics, geography, and social justice interconnect when addressing SDGs. Teachers from multiple subjects can collaborate, using the app as a hub for interdisciplinary learning.
@@ -107,3 +107,37 @@ BENEFITS:
 - Global Perspective: The interactive board will encourage students to share ideas and learn from peers worldwide, promoting cultural exchange and global citizenship.
 - Motivation and Competition: The project upload and ranking system will incentivize students to engage deeply with their projects, fostering a sense of accomplishment and encouraging peer-to-peer learning.
 - Skill Development: The platform will help students develop essential skills, including research, problem-solving, collaboration, and effective communication, which are valuable both academically and professionally.
+
+
+DEVELOPMENT AND TOOLS:
+
+We are approaching the development of the GRADATIM web application with an exploratory mindset. Since we’re still learning about programming, we’re focusing on tools that are easy to work with for beginners.
+
+1- Design and Prototyping: We are designing the web app interface in Figma, which allows us to visually structure the user experience and prototype features like the spinning wheel and interactive board.
+
+2- Web Developmenr: We plan to create a user-friendly web app where we can manage both front-end and back-end development despite our limited programming experience. For the front-end, we will use straightforward technologies to build an engaging user interface and provide students with interactive tools. As for the back-end and database, we're exploring tools that can manage user data, project uploads, and resources while offering a simple structure that can be easily learned. We aim to select tools that are widely used and well-supported, with a focus on scalability and accessibility for educational purposes.
+
+3- NASA APIs: Since our app will include real-world data, we plan to use NASA’s Earth Observation API to integrate interactive data visualizations.
+
+Our goal is to use beginner-friendly technologies and learn by working on the project while seeking guidance on more technical aspects such as managing databases and backend development.
+
+
+DEVELOPMENT STATUS AND ROADMAP:
+
+Our project is currently in the Figma prototype stage, where we are finalizing the design layout and user flow for the web application. Here’s an outline of our development status and next steps:
+
+Current Stage: Figma prototype completed for core features, including the SDGs exploration module, the Spinning Wheel Mechanism, the Build Your Challenge tool, and user dashboard.
+
+Next Steps:
+
+Frontend Development: Begin coding the interface and integrating the Spinning Wheel and Challenge Builder tools.
+
+Backend Development: Set up authentication and database structures for school registrations, student/teacher dashboards, and project submission systems.
+APIs Integration: Integrate NASA and other relevant APIs for real-time data visuals.
+Upcoming Features:
+
+"What If" feature: Use points to unlock scenarios depicting consequences of not addressing the SDGs.
+
+Project Ranking System: Implement a voting-based ranking system for projects uploaded by students.
+
+ODIS Module: Integration of student-created short-form videos globally, enhancing engagement.
