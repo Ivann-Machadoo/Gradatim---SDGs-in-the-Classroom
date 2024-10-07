@@ -39,7 +39,7 @@ The  essence of the GRADATIM web aplication is built on these educational princi
 
 GRADATIM WEB APP:
 
-Slides Demo: *link to slides*
+Video Demo: https://youtu.be/d5dbaTPKv7g
 
 Web app link: Since we don't have a designated programmer we utilized Figma to create a user-friendly prototype of our web application, enabling us to visualize the layout and button functionality.
 
