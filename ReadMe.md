@@ -8,7 +8,7 @@ Gradatim is a **web-based application** designed to engage high school students 
 [GRADATIM Team Page](https://www.spaceappschallenge.org/nasa-space-apps-2024/find-a-team/gradatim/?tab=project)
 
 🔗 **Link to our web app demo**:
-[GRADATIM Web App](/Gradatim---SDGs-in-the-Classroom/pages/start.html)
+[GRADATIM Web App](/pages/start.html)
 
 ---
 
