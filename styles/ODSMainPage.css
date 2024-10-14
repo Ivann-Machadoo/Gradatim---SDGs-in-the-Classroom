@@ -1,0 +1,110 @@
+.container {
+  border: 1px solid black;
+  background-repeat: round;
+  background-size: contain;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.sidebar {
+  height: 100vh;
+  background-color: #2c3e50;
+  padding: 0 10px;
+  padding-top: 10px;
+}
+
+.sidebar a {
+  padding: 0.2rem 1rem;
+  width: 10rem;
+  margin-bottom: 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+}
+
+.sidebar a div {
+  align-self: center;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sidebar a div img {
+  color: white;
+  font-size: 16px;
+  align-self: center;
+}
+
+.sidebar a div p {
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0;
+}
+
+.sidebar a:hover {
+  opacity: 0.9;
+}
+
+p {
+  color: white;
+}
+
+.ODS-1 {
+  background-image: url("../images/ODS-bgImages/ODS-1.png");
+}
+.ODS-2 {
+  background-image: url("../images/ODS-bgImages/ODS-2.png");
+}
+.ODS-3 {
+  background-image: url("../images/ODS-bgImages/ODS-3.png");
+}
+.ODS-4 {
+  background-image: url("../images/ODS-bgImages/ODS-4.png");
+}
+.ODS-5 {
+  background-image: url("../images/ODS-bgImages/ODS-5.png");
+}
+.ODS-6 {
+  background-image: url("../images/ODS-bgImages/ODS-6.png");
+}
+.ODS-7 {
+  background-image: url("../images/ODS-bgImages/ODS-7.png");
+}
+.ODS-8 {
+  background-image: url("../images/ODS-bgImages/ODS-8.png");
+}
+.ODS-9 {
+  background-image: url("../images/ODS-bgImages/ODS-9.png");
+}
+.ODS-10 {
+  background-image: url("../images/ODS-bgImages/ODS-10.png");
+}
+.ODS-11 {
+  background-image: url("../images/ODS-bgImages/ODS-11.png");
+}
+.ODS-12 {
+  background-image: url("../images/ODS-bgImages/ODS-12.png");
+}
+.ODS-13 {
+  background-image: url("../images/ODS-bgImages/ODS-13.png");
+}
+.ODS-14 {
+  background-image: url("../images/ODS-bgImages/ODS-14.png");
+}
+.ODS-15 {
+  background-image: url("../images/ODS-bgImages/ODS-15.png");
+}
+.ODS-16 {
+  background-image: url("../images/ODS-bgImages/ODS-16.png");
+}
+.ODS-17 {
+  background-image: url("../images/ODS-bgImages/ODS-17.png");
+}

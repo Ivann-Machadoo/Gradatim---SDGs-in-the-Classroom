@@ -1,0 +1,48 @@
+.container {
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+h2,
+p {
+  text-align: end;
+}
+
+p {
+  color: #d0a833;
+  font-size: 30px;
+  margin: 0;
+  padding: 5px 10px;
+}
+
+.locked-story {
+  margin: 10px;
+  padding: 30px;
+  justify-content: center;
+  align-content: center;
+}
+
+.story {
+  height: 150px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.story img {
+  width: 50px;
+}
+
+.story-1 {
+  background-color: #f1bbda;
+}
+.story-2 {
+  background-color: #d07ca9;
+}
+.story-3 {
+  background-color: #c56092;
+}

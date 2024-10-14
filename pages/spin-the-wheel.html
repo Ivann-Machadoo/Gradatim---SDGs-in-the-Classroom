@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gradatim - Spin the Wheel</title>
+    <link rel="stylesheet" href="../styles/global.css" />
+    <link rel="stylesheet" href="../styles/spin-the-wheel.css" />
+    <script src="../components/Navbar.js" type="text/javascript" defer></script>
+    <script
+      src="../components/Sidebar.js"
+      type="text/javascript"
+      defer
+    ></script>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <navbar-component></navbar-component>
+
+    <main>
+      <!-- Sidebar -->
+      <sidebar-component></sidebar-component>
+
+      <!-- Main Content -->
+      <div class="container">
+        <h1>Spin the Wheel</h1>
+        <!-- Wheel Section -->
+        <div class="container_content">
+          <div class="wheel-container">
+            <canvas id="wheelCanvas" width="400" height="400"></canvas>
+            <br />
+            <button class="spin-btn" onclick="spinWheel()">
+              Spin the Wheel
+            </button>
+          </div>
+
+          <!-- Results Section -->
+          <div class="results-container">
+            <div class="result">
+              <h2>ODS 5: Gender Equality</h2>
+              <p>
+                History: Study gender rights movements.<br />
+                Ethics: Debate gender equality and justice.<br />
+                Social Studies: Analyze societal structures affecting gender.<br />
+                Literature: Explore texts on gender and empowerment.<br />
+                STEM: Discuss bridging the gender gap in technology.
+              </p>
+            </div>
+
+            <div class="result">
+              <h2>ODS 15: Life on Land</h2>
+              <p>
+                Biology: Study biodiversity and species conservation.<br />
+                Geography: Understand ecosystems and climate effects.<br />
+                Chemistry: Examine human impact on soil and land.<br />
+                Environmental Science: Focus on local ecosystem restoration.<br />
+                Math: Use statistics to track biodiversity loss.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">GRADATIM, from Sonora to the Space</div>
+      </div>
+    </main>
+
+    <!-- ============================================================ -->
+
+    <script>
+      // Define the options for the wheel with their respective SDG colors
+      const wheelOptions = [
+        { label: "No Poverty", color: "#E5243B" },
+        { label: "Zero Hunger", color: "#DDA63A" },
+        { label: "Good Health", color: "#4C9F38" },
+        { label: "Quality Edu.", color: "#C5192D" },
+        { label: "Gender Equality", color: "#FF3A21" },
+        { label: "Clean Water", color: "#26BDE2" },
+        { label: "Affordable Energy", color: "#FCC30B" },
+        { label: "Decent Work", color: "#A21942" },
+        { label: "Industry, Innov.", color: "#FD6925" },
+        { label: "Reduced Inequality", color: "#DD1367" },
+        { label: "Sustainable Cities", color: "#FD9D24" },
+        { label: "Responsible Prod.", color: "#BF8B2E" },
+        { label: "Climate Action", color: "#3F7E44" },
+        { label: "Life Below Water", color: "#0A97D9" },
+        { label: "Life on Land", color: "#56C02B" },
+        { label: "Peace, Justice", color: "#00689D" },
+        { label: "Partnerships", color: "#19486A" },
+      ];
+
+      let spinning = false;
+      const wheelCanvas = document.getElementById("wheelCanvas");
+      const ctx = wheelCanvas.getContext("2d");
+
+      // Draw the wheel
+      function drawWheel() {
+        const numOptions = wheelOptions.length;
+        const arcSize = (2 * Math.PI) / numOptions;
+
+        wheelOptions.forEach((option, index) => {
+          const angle = index * arcSize;
+          ctx.beginPath();
+          ctx.moveTo(200, 200);
+          ctx.arc(200, 200, 200, angle, angle + arcSize, false);
+          ctx.fillStyle = option.color; // Use SDG color
+          ctx.fill();
+          ctx.stroke();
+
+          // Draw the text
+          ctx.save();
+          ctx.translate(200, 200);
+          ctx.rotate(angle + arcSize / 2);
+          ctx.fillStyle = "#000";
+          ctx.font = "bold 12px Arial";
+          ctx.fillText(option.label, 50, 10); // Abbreviated text
+          ctx.restore();
+        });
+      }
+
+      drawWheel(); // Initial draw of the wheel
+
+      // Spin function
+      function spinWheel() {
+        if (spinning) return;
+        spinning = true;
+        let spinAngle = Math.floor(Math.random() * 360) + 360 * 3; // Spin 3 full rounds + random
+        let currentAngle = 0;
+        const spinSpeed = 10; // Speed of the spin
+
+        const spinInterval = setInterval(() => {
+          currentAngle += spinSpeed;
+          ctx.clearRect(0, 0, wheelCanvas.width, wheelCanvas.height); // Clear canvas
+          ctx.save();
+          ctx.translate(200, 200);
+          ctx.rotate((currentAngle * Math.PI) / 180);
+          ctx.translate(-200, -200);
+          drawWheel();
+          ctx.restore();
+
+          if (currentAngle >= spinAngle) {
+            clearInterval(spinInterval);
+            spinning = false;
+          }
+        }, 20);
+      }
+    </script>
+  </body>
+</html>

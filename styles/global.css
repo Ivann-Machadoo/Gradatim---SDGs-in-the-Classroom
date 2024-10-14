@@ -1,0 +1,61 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+}
+
+.origins {
+  background-color: #ff6b6b;
+}
+.spin-wheel {
+  background-color: #ffd93d;
+}
+.explore-sdgs {
+  background-color: #6bcb77;
+}
+.build-challenge {
+  background-color: #4d96ff;
+}
+.global-board {
+  background-color: #ff924c;
+}
+.odis {
+  background-color: #eb4934;
+}
+.games {
+  background-color: #b6242c;
+}
+.what-if {
+  background-color: #5cb84b;
+}
+
+/* Footer Styling */
+.footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  width: 100%;
+  padding: 20px 0;
+  margin-top: auto;
+}
